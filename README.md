@@ -1,1 +1,0 @@
-# Opencode_Plugin-AUTO_MODEL
