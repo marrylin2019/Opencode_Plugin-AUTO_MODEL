@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    [
+      "file://path/to/the/plugin",
+      {
+        "providers": [
+          {
+            "id": "example-id",  // only Letters, Numbers and Hyphen is available
+            "name": "Example Name",
+            "baseURL": "https://example-host.com/v1"
+          }
+        ]
+      }
+    ]
+  ]
+}
