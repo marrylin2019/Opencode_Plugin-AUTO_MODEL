@@ -52,3 +52,23 @@
 使用opencode-tui中的/connect命令-Other Custom  Provider-Provider id请使用和`opencode.jsonc`相同的id-输入API Key。
 
 或者，你也可以直接编辑`~/.local/share/opencode/auth.json`添加API Key。
+
+## 本地开发与构建
+确保你的系统已安装 Bun。
+
+```Bash
+# 克隆仓库
+git clone [https://github.com/yourusername/opencode-auto-models.git](https://github.com/yourusername/opencode-auto-models.git)
+cd opencode-auto-models
+
+# 安装依赖
+bun install
+
+# 构建插件
+bun build src/index.ts --outfile=auto-models.js --target node --external @opencode-ai/plugin
+```
+
+## 日志排查
+如果模型没有正常加载，可以查看插件生成的日志文件：
+
+路径：`~/.config/opencode/opencode-auto-models.log`
