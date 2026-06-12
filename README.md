@@ -1,4 +1,4 @@
-[English](#english) | [简体中文](#简体中文)
+[English](#english) | [简体中文](README-zh.md)
 
 ---
 
