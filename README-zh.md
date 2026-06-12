@@ -1,3 +1,8 @@
+[English](README.md) | [简体中文](#简体中文)
+
+---
+
+<a id="简体中文"></a>
 # Opencode_Plugin-AUTO_MODEL
 
 为 [Opencode](https://github.com/opencode-ai/opencode) 开发的第三方模型列表自动获取与注入插件。
